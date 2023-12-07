@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab Task 5 WebApps</title>
+
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!--Style-->
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.extended-certificates {
+    color: white;
+}
+
+.descriptionBox {
+    background-color: rgb(180, 222, 255);
+    border: 5px solid darkblue;
+    padding: 10px;
+}
+</style>
+
+<!--Content-->
+<body>
+    <div data-role="page" id="portFolio">
+        <div data-role="header" >
+            <h1>Lab Task 5 WebApps</h1>
+        </div>
+
+        <div data-role="navbar"id="navigationBar">
+        <ul>
+            <li><a href="index.html" rel="external" data-theme="b" data-icon="home">About Us</a></li>
+            <li><a href="portfolio.html" rel="external" data-theme="b" data-icon="grid">Portfolio</a></li>
+            <li><a href="contact.html" rel="external" data-theme="b" data-icon="info">Contact Us</a></li>
+        </ul>
+        </div>
+
+        <div data-role="content">
+        <div data-role="collapsible" data-theme="b">
+            <h1>Outstanding Coding Project Award</h1>
+            <div class="descriptionBox">
+                <p>The Outstanding Coding Project Award is a testament to the recipient's exceptional skills in developing 
+                    a coding project that not only tackled complex problems but also demonstrated a high degree of creativity. 
+                    This award acknowledges the recipient's dedication to the craft of coding, showcasing an ability to think 
+                    innovatively and produce solutions that push the boundaries of technology.</p>
+                <p>Points: 8</p>
+            </div>
+        </div>
+
+        <div data-role="collapsible" data-theme="b">
+            <h1>Best Portfolio Showcase Award</h1> 
+            <div class="descriptionBox">
+                <p>The Best Portfolio Showcase Award is granted to individuals who have meticulously curated a portfolio that 
+                    goes beyond mere presentation. It is a recognition of the recipient's commitment to excellence in design, 
+                    user experience, and multimedia arts. This award establishes the recipient as a creative force within the 
+                    academic community, setting a standard for excellence in design-related endeavors. </p>
+                <p>Points: 10</p>
+            </div>
+        </div>
+
+        <div data-role="collapsible" data-theme="b">
+            <h1>Top Pitch at Entrepreneurship Competition</h1>
+            <div class="descriptionBox">
+                <p>The Top Pitch at Entrepreneurship Competition Award is a mark of distinction for individuals who have demonstrated
+                     exceptional communication skills and entrepreneurial acumen. The recipient has not only delivered a compelling 
+                     pitch but has also introduced innovative ideas that have the potential to transform industries. This award 
+                     recognizes the recipient's ability to articulate a clear vision, coupled with a deep understanding of business strategy.</p>
+                <p>Points: 12</p>
+            </div>
+        </div>
+
+        <div data-role="collapsible" data-theme="b">
+            <h1>Community Impact Award</h1>
+            <div class="descriptionBox">
+                <p>The Community Impact Award is a recognition of the significant contributions made by individuals or groups to the betterment, 
+                    enhancement, or empowerment of a community. This prestigious award celebrates initiatives or projects that have brought about 
+                    positive change, addressed pressing issues, and improved the overall quality of life for a specific community. The recipient of 
+                    this award is acknowledged for their dedication to creating a lasting impact and leaving a positive legacy within the community.
+                </p>
+                <p>Points: 10</p>
+            </div>
+        </div>
+
+        <h1>Our Certificates</h1>
+        <div data-role="collapsible" data-theme="b">
+            <h1>Certificate Viewer</h1>
+            <ul class="ui-corner-all ui-shadow" data-role="listview">
+                <li data-icon="arrow-r" data-theme="d"><a href="certificate.pdf" target="_blank">Machine Learning by Stanford University</a></li>
+                <li data-icon="arrow-r" data-theme="d"><a href="certificate.pdf" target="_blank">Business Strategy and Innovation</a></li>
+                <li data-icon="arrow-r" data-theme="d"><a href="certificate.pdf" target="_blank">Artificial Intelligence Fundamentals</a></li>
+                <li data-icon="arrow-r" data-theme="d"><a href="certificate.pdf" target="_blank">Community Development and Social Impact</a></li>
+                <li data-icon="arrow-r" data-theme="d"><a href="certificate.pdf" target="_blank">Advanced Algorithms and Data Structures</a></li>
+                <li data-icon="arrow-r" data-theme="d"><a href="certificate.pdf" target="_blank">Data Science Excellence Award</a></li>
+                <li data-icon="arrow-r" data-theme="d"><a href="certificate.pdf" target="_blank">Virtual Reality Developer Certification</a></li>
+            </ul>
+        </div>
+
+<!--Footer-->
+        <div data-role="footer" data-position="fixed">
+            <h4>Copyright &copy; DDT4D S1 2023/2024. All rights reserved</h4>
+        </div>
+    </div>
+
+</body>
+</html>
