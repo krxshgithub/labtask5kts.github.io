@@ -54,26 +54,30 @@ table {
 }
 
 @media (max-width: 600px) {
-  #index {
+  body, .ui-page {
     text-align: center;
   }
+  table {
+    width: 100%;
+  }
 }
+
 </style>
 </head>
 
 <!--Content-->
  <body>
-    <div data-role="content" data-role="main">
     <div data-role="page" id="index">
+    <div data-role="content" data-role="main">
         <div data-role="header" data-position="fixed">
             <h1>Lab Task 5 WebApps</h1>
         </div>
         
         <div data-role="navbar">
             <ul>
-                <li><a href="index.html" rel="external" data-icon="home">About Us</a></li>
-                <li><a href="portfolio.html" rel="external" data-icon="grid">Portfolio</a></li>
-                <li><a href="contact.html" rel="external" data-icon="info">Contact Us</a></li>
+                <li><a href="index.html" rel="external" data-theme="b" data-icon="home">About Us</a></li>
+                <li><a href="portfolio.html" rel="external" data-theme="b" data-icon="grid">Portfolio</a></li>
+                <li><a href="contact.html" rel="external" data-theme="b" data-icon="info">Contact Us</a></li>
             </ul>
         </div>
         
