@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Lab Task 5 WebApps</title>
+  
+  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css"/>
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+  
+</head>
+
+<!--Style-->
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table th {
+    background-color: lightskyblue;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.table td {
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+[data-role="collapsible"] {
+    margin: 15px;
+}
+
+.details {
+    background-color: silver;
+    padding: 10px;
+}
+
+.descriptionBox {
+    background-color: rgb(180, 222, 255);
+    border: 5px solid darkblue;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+  #index {
+    text-align: center;
+  }
+}
+</style>
+
+<!--Content-->
+ <body>
+    <div data-role="page" id="index">
+        <div data-role="header">
+            <h1>Lab Task 5 WebApps</h1>
+        </div>
+        
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" rel="external" data-theme="b"  data-icon="home">About Us</a></li>
+                <li><a href="portfolio.html" rel="external" data-theme="b" data-icon="grid">Portfolio</a></li>
+                <li><a href="contact.html" rel="external" data-theme="b" data-icon="info">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <h2>Team Members</h2>
+        <table class="table">
+            <tr>
+                <th>NO</th>
+                <th>STUDENT NAME</th>
+                <th>REG.NO</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>KRISHMITA SREE A/P NAGENDHRA RAO</td>
+                <td>10DDT22F1107</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SRANJITHAA A/P SOLAIRAJA</td>
+                <td>10DDT22F1077</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>TAN XIANG YI</td>
+                <td>10DDT22F1085</td>
+            </tr>
+        </table>
+        <br>
+
+        <div data-role="collapsible" data-theme="b">
+            <h1>Personal Details</h1>
+            <div class="details">
+                <h3>1. KRISHMITA SREE A/P NAGENDHRA RAO | Technology Enthusiast</h3>
+                <center><img src="krishmita.JPEG" style="width:120px"></center>
+                <ul>
+                    <li>Interests: Technology, coding and artificial engineering.</li>
+                    <li>Dreams in Academics: Learn multiple programming languages and work on cutting-edge technology.</li>
+                    <li>Ambitions: Aspires to become a Computer System Analyst.</li>
+                </ul>
+                <hr>
+                <h3>2. SRANJITHAA A/P SOLAIRAJA | Creative Designer</h3>
+                <center><img src="sranjithaa.jpeg" style="width:120px"></center>
+                <ul>
+                    <li>Interests: Technology, coding and web designing.</li>
+                    <li>Dreams in Academics: Learn multiple web designing styles and marketing own designs.</li>
+                    <li>Ambitions: Aspires to become a professional Web Developer.</li>
+                </ul>
+                <hr>
+                <h3>3. TAN XIANG YI | Security Specialist</h3>
+                <center><img src="tan.jpg" style="width:120px"></center>
+                <ul>
+                    <li>Interests: Technology, coding and software security.</li>
+                    <li>Dreams in Academics: Learn multiple programming languages and ways to handle security issues.</li>
+                    <li>Ambitions: Aspires to become a Information Security Analyst</li>
+                </ul>    
+            </div>
+        </div>
+
+        <div data-role="collapsible" data-theme="b">
+            <h1>Dream Career</h1>
+            <div class="details">
+                <h3>1. Technology Enthusiast:</h3>
+                <div class="descriptionBox">
+                    <p>A technology enthusiast is someone deeply passionate about technology, often eager to explore, learn, and engage 
+                        with various technological advancements. They display a keen interest in understanding how technology works, 
+                        stay updated with the latest innovations, and may actively participate in discussions, projects, or activities 
+                        related to different technological fields. These individuals often enjoy experimenting with new gadgets, exploring 
+                        software or hardware, and may even pursue careers or hobbies that involve working with technology-driven solutions. 
+                        Overall, a technology enthusiast is someone enthusiastic and curious about the ever-evolving world of technology.
+                    </p>
+                </div>
+                <br>
+                <h3>2. Creative Designer:</h3>
+                <div class="descriptionBox">
+                    <p>A creative web designer is someone who combines artistic flair with technical skills to design visually appealing 
+                        and functional websites. They use their creativity to craft layouts, graphics, and user interfaces that engage 
+                        visitors and deliver an enjoyable browsing experience. These designers possess a strong understanding of design
+                        principles, typography, color theory, and user experience (UX), aiming to create websites that not only look great
+                        but also prioritize usability and ease of navigation. They often collaborate with clients or teams to understand 
+                        requirements, conceptualize designs, and bring innovative ideas to life in the digital space.
+                    </p>
+                </div>
+                <br>
+                <h3>3. Security Specialist:</h3>
+                <div class="descriptionBox">
+                    <p>A security specialist is an expert responsible for safeguarding digital systems, networks, and data from potential 
+                        threats, vulnerabilities, and cyberattacks. They design, implement, and manage security measures to protect an 
+                        organization's information assets. These professionals analyze systems for weaknesses, develop and deploy security 
+                        solutions, and establish protocols to prevent unauthorized access, data breaches, malware infections, and other cyber 
+                        threats. Overall, security specialists play a crucial role in maintaining the confidentiality, integrity, and 
+                        availability of information by implementing robust security measures
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+<!--Footer-->
+        <div data-role="footer" data-position="fixed">
+            <h4>Copyright &copy; DDT4D S1 2023/2024. All rights reserved</h4>
+        </div>
+    </div>
+
+</body>
+</html>
