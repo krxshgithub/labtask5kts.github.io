@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Lab Task 5 WebApps</title> 
+
+  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css"/>
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+ 
+<!--Style-->
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+[data-role="content"] {
+    margin: 15px;
+}
+
+.container {
+  border: 2px solid #919090;
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 20px;
+  text-align: center;
+}
+
+.container span,
+.container p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+      
+.container img {
+  margin: auto;
+  float: none;
+  display: block;
+  width: 50%
+}
+
+@media (max-width: 500px) {
+#contact {
+    text-align: center;
+  }
+}
+</style>
+
+<!--Content-->
+<body>
+  <div data-role="page" id="contact">
+    
+    <div data-role="header">
+      <h1>Lab Task 5 WebApps</h1>
+    </div>
+    
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" rel="external" data-theme="b"  data-icon="home">About Us</a></li>
+        <li><a href="portfolio.html" rel="external" data-theme="b" data-icon="grid">Portfolio</a></li>
+        <li><a href="contact.html" rel="external" data-theme="b" data-icon="info">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <h2>Contact Us</h2>
+    <div data-role="content">
+      <ul data-role="Listview" data-inset="true" class="ui-btn-icon-Right" data-theme="b">
+        <a href="tel:+0163489900" data-role="button" data-theme="b" data-icon="arrow-r"><center>Call Us</center></a>
+        <a href="mailto:sranjithasranji@gmail.com"data-role="button" data-theme="b" data-icon="arrow-r"><center>Email Us</center></a>
+        <a href="https://wa.me/60163489900"data-role="button" data-theme="b" data-icon="arrow-r"><center>Whatsapp Us</center></a>
+      </ul>
+    </div>
+    
+    <h2>Testimonials</h2>
+    <div class="container">
+      <img src="sranjithaa.JPEG" style="width:120px">
+      <p><span>SRANJITHAA A/P SOLAIRAJA</span></p> 
+        <p>SEMESTER 4</p>
+        <p><i>"Studying diploma in information technology at Politeknik Seberang Perai has been an incredible journey. The curriculum 
+          is not just theoretical; it's hands-on and up-to-date with the latest industry trends. The professors are passionate and always 
+          ready to help. I've gained practical skills that make me confident about entering the tech workforce."</i></p>
+    </div>
+    
+    <div class="container">
+      <img src="krishmita.JPEG" style="width:120px">
+      <p><span>KRISHMITA SREE A/P NAGENDHRA RAO</span></p>
+        <p>SEMESTER 4</p>
+        <p><i>"Being a technology enthusiast, I found the information technology program at Politeknik Seberang Perai to be tailor-made for 
+          my interests. The courses cover a wide range of technology topics, and the faculty members have real-world experience. The dedicated 
+          labs for ethical coding and the programming have been invaluable in preparing me for a career in this rapidly evolving field."</i></p>
+    </div>
+      
+    <div class="container">
+      <img src="tan.JPG" style="width:120px">
+      <p><span>TAN XIANG YI</span></p>
+        <p>SEMESTER 4</p>
+        <p><i>"Choosing the software development track in the information technology program was the best decision I made. The projects we 
+          worked on were challenging yet rewarding. The collaboration with fellow students and the guidance from professors helped me build a 
+          strong foundation in programming. I'm now equipped with the skills needed to thrive in the competitive software development industry."</i></p>
+    </div>
+
+<!--Footer-->
+    <div data-role="footer" data-position="fixed">
+      <h4>Copyright &copy; DDT4D S1 2023/2024. All rights reserved</h4>
+    </div>
+  </div>
+
+ </body>
+ </html>
